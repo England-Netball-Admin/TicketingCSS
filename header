@@ -4,7 +4,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>England Netball | Header &amp; Footer</title>
-<link rel="stylesheet" href="https://www.englandnetball.co.uk/wp-content/themes/england-netball/assets/css/style-0-reset.css" />
+<link rel="stylesheet" href="https://github.com/England-Netball-Admin/TicketingCSS/blob/css/style-0-reset.css" />
 <link rel="stylesheet" href="https://www.englandnetball.co.uk/wp-content/themes/england-netball/style-1-brand.css" />
 <link rel="stylesheet" href="https://www.englandnetball.co.uk/wp-content/themes/england-netball/style-2-header-footer.css" />
 <style type="text/css">
