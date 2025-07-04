@@ -1,0 +1,177 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>England Netball | Header &amp; Footer</title>
+<link rel="stylesheet" href="https://www.englandnetball.co.uk/wp-content/themes/england-netball/assets/css/style-0-reset.css" />
+<link rel="stylesheet" href="https://www.englandnetball.co.uk/wp-content/themes/england-netball/style-1-brand.css" />
+<link rel="stylesheet" href="https://www.englandnetball.co.uk/wp-content/themes/england-netball/style-2-header-footer.css" />
+<style type="text/css">
+    #mobile-menu {
+      display: none;
+      position: absolute;
+      top: 64px;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1000;
+      text-align: center;
+    }
+ 
+    #mobile-menu ul > li {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+ 
+    #mobile-menu a {
+      color: #fff!important;
+    }
+ 
+    #mobile-menu.active {
+      display: block;
+    }
+ 
+    @media (min-width: 1024px) {
+      #mobile-menu {
+        display: none;
+      }
+    }
+</style>
+ 
+  <script type="text/javascript">
+    document.addEventListener(`DOMContentLoaded`, () => {
+      const menuBtn = document.querySelector(`[data-mobile-menu]`);
+      const menu = document.getElementById(`mobile-menu`);
+      menuBtn.addEventListener(`click`, () => {
+        menu.classList.toggle(`active`);
+      });
+    });
+</script>
+</head>
+ 
+<body>
+<footer class="footer bg-primary">
+<div class="p-1 pb-1-3">
+<div class="footer__main max__body-width">
+<div class="footer__sign-up">
+<a href="https://englandnetball.co.uk/membership/become-a-member/" title="Become a member"
+            class="button d-inline-flex bg-primary c-white px-1 py-0-5">
+<i class="icon-user" aria-label="Become a member"></i>
+<div class="footer__sign-content pl-1">
+<p class="footer__sign-title m-0 ts-1">Become a member</p>
+<p class="footer__sign-tag m-0 ts-0-9 tf-normal">Now</p>
+</div>
+</a>
+</div>
+<div class="footer__menu pt-0-8 mb-1">
+<div class="menu-footer-menu-container">
+<ul id="menu-footer-menu" class="footer-menu">
+<li class="menu__item menu__item--children d-inline-block " data-item-depth="0">
+<div class="menu-item__inner-link">
+<a title="About" href="https://englandnetball.co.uk/about/" role="menuitem"
+                    tabindex="0" class="menu__link d-inline-block" alt="About">
+                    About
+</a>
+ 
+                </div>
+</li>
+ 
+              <li class="menu__item d-inline-block " data-item-depth="0">
+<div class="menu-item__inner-link">
+<a title="Contact" href="https://englandnetball.co.uk/about/contact-us/"
+                    role="menuitem" tabindex="0" class="menu__link d-inline-block" alt="Contact">
+                    Contact
+</a>
+ 
+                </div>
+</li>
+ 
+              <li class="menu__item menu__item--children d-inline-block " data-item-depth="0">
+<div class="menu-item__inner-link">
+<a title="Governance" href="https://englandnetball.co.uk/governance/" role="menuitem"
+                    tabindex="0" class="menu__link d-inline-block" alt="Governance">
+                    Governance
+</a>
+ 
+                </div>
+</li>
+ 
+              <li class="menu__item menu__item--children d-inline-block " data-item-depth="0">
+<div class="menu-item__inner-link">
+<a title="Work for Us" href="https://englandnetball.co.uk/about/work-for-us/"
+                    role="menuitem" tabindex="0" class="menu__link d-inline-block" alt="Work for Us">
+                    Work for Us
+</a>
+ 
+                </div>
+</li>
+</ul>
+</div>
+</div>
+<div class="footer__logo">
+<a href="/" title="England Netball">
+<img
+              class="d-inline-block"
+              src="https://d2cx26qpfwuhvu.cloudfront.net/englandnetball/wp-content/uploads/2021/11/25090648/EN_LOGO_WHT.svg"
+              alt="England Netball"
+              title="England Netball"
+            />
+</a>
+</div>
+<div class="footer__social-accounts">
+<div class="footer__social footer__social--youtube d-inline-block mr-0-5">
+<a class="c-white" href="http://www.youtube.com/user/EnglandNetball" title="Youtube"
+              aria-label="View our Youtube account here" target="_blank">
+<i class="icon-youtube"></i>
+</a>
+</div>
+<div class="footer__social footer__social--twitter d-inline-block mr-0-5">
+<a class="c-white" href="http://twitter.com/EnglandNetball" title="Twitter"
+              aria-label="View our Twitter account here" target="_blank">
+<i class="icon-twitter"></i>
+</a>
+</div>
+<div class="footer__social footer__social--instagram d-inline-block mr-0-5">
+<a class="c-white" href="https://www.instagram.com/englandnetball" title="Instagram"
+              aria-label="View our Instagram account here" target="_blank">
+<i class="icon-instagram"></i>
+</a>
+</div>
+<div class="footer__social footer__social--facebook d-inline-block mr-0-5">
+<a class="c-white" href="http://www.facebook.com/englandnetball" title="Facebook"
+              aria-label="View our Facebook account here" target="_blank">
+<i class="icon-facebook"></i>
+</a>
+</div>
+</div>
+<div class="footer__top tf-allcaps" data-scroll="top">
+<span class="d-none">
+            Back to top
+</span>
+<i class="icon-arrow-up bg-primary c-white"></i>
+</div>
+</div>
+</div>
+<div class="footer__legal-wrapper bg-primary c-white ts-0-75 px-1 py-0-8">
+<div class="footer__legal d-flex max__body-width">
+<p class="m-0 footer__legal-copyright">© 2021 England Netball</p>
+<div class="footer__legal-links">
+<a class="footer__legal-page footer__legal-page--terms mr-0-5 c-white"
+            href="http://www.englandnetball.co.uk/terms-conditions/" title="Terms &amp; Conditions">
+            Terms &amp; Conditions </a>
+<a class="footer__legal-page footer__legal-page--privacy c-white"
+            href="http://www.englandnetball.co.uk/privacy-policy/" title="Privacy Policy">
+            Privacy Policy </a>
+</div>
+<p class="m-0 ts-0-7 footer__developed">Delivered by
+<a href="https://sotic.net" target="_blank" title="Sotic Digital">
+<img class="sotic ml-0-3" alt="Sotic Digital Agency"
+              src="https://cdn.soticservers.net/tools/images/company/l/sotic.svg" type="image/svg+xml">
+</a>
+</p>
+</div>
+</div>
+</footer>
+</body>
+</html>
